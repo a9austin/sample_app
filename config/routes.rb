@@ -29,9 +29,6 @@ SampleApp::Application.routes.draw do
   #   resources :products
 
 
-  def signed_in?
-    !current_user.nil?
-  end
   # Sample resource route with options:
   #   resources :products do
   #     member do
